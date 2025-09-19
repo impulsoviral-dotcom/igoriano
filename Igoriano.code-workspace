@@ -1,0 +1,47 @@
+{
+  "folders": [
+    {
+      "name": "Método Igoriano",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+    "files.associations": {
+      "*.html": "html",
+      "*.css": "css",
+      "*.js": "javascript",
+      "*.md": "markdown"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "liveServer.settings.port": 8002,
+    "liveServer.settings.CustomBrowser": "chrome"
+  },
+  "extensions": {
+    "recommendations": [
+      "ritwickdey.liveserver",
+      "formulahendry.auto-rename-tag",
+      "christian-kohler.path-intellisense",
+      "zignd.html-css-class-completion",
+      "esbenp.prettier-vscode",
+      "ms-vscode.vscode-css-peek"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Método Igoriano",
+        "request": "launch",
+        "type": "chrome",
+        "url": "http://localhost:8002/metodo-igoriano.html",
+        "webRoot": "${workspaceFolder}"
+      }
+    ]
+  }
+}

@@ -23,11 +23,45 @@
                     <h1><i class="fas fa-rocket"></i> Método Igoriano</h1>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="#metodologia">Metodologia</a></li>
-                    <li><a href="#robos">Robôs</a></li>
-                    <li><a href="#ferramentas">Ferramentas</a></li>
-                    <li><a href="#funil">Funil</a></li>
-                    <li><a href="#planilha">Planilha Completa</a></li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#metodologia" class="nav-link">Metodologia <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#metodologia">Visão Geral</a></li>
+                            <li><a href="#metodologia">Funil em Perspectiva</a></li>
+                            <li><a href="#metodologia">NAIE 2.0</a></li>
+                            <li><a href="#metodologia">Carrossel de Reels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#robos" class="nav-link">Robôs IA <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#robos">Todos os Robôs</a></li>
+                            <li><a href="https://chatgpt.com/g/g-681043a37a3c819199a1074ab2e91fac-dom-palavrao-da-copy" target="_blank">Dom Palavrão da Copy</a></li>
+                            <li><a href="https://chatgpt.com/g/g-gYZKgxBX6-criador-de-bonus-e-order-bumps" target="_blank">Criador de Bônus</a></li>
+                            <li><a href="#robos">Designer Criativo</a></li>
+                            <li><a href="#robos">Especialista em Anúncios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ferramentas" class="nav-link">Ferramentas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#funil" class="nav-link">Funil Completo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#planilha" class="nav-link">Planilha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                    <li class="nav-item cta-nav">
+                        <a href="#planilha" class="nav-cta">
+                            <i class="fas fa-download"></i> Acessar Agora
+                        </a>
+                    </li>
                 </ul>
                 <div class="nav-toggle">
                     <span></span>
@@ -364,6 +398,87 @@
                         <i class="fas fa-external-link-alt"></i> Acessar Planilha Completa
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Tem dúvidas? Quer uma consultoria personalizada? Fale conosco!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>contato@metodoigoriano.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telefone</h3>
+                            <p>+55 (11) 99999-9999</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Horário</h3>
+                            <p>Segunda a Sexta: 9h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="consultoria">Consultoria Personalizada</option>
+                            <option value="duvidas">Dúvidas sobre o Método</option>
+                            <option value="suporte">Suporte Técnico</option>
+                            <option value="parceria">Proposta de Parceria</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Conte-nos como podemos ajudar você..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">
+                        <i class="fas fa-paper-plane"></i>
+                        Enviar Mensagem
+                    </button>
+                </form>
             </div>
         </div>
     </section>
